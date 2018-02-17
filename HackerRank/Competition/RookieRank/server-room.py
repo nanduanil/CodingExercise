@@ -15,21 +15,21 @@ def checkAll(n, height, position):
     if(n == 1): return 'BOTH'
     stop = False
     fallRange = []
-    heappush(fallRange,height[0]+position[0])
+    heappush(fallRange,(height[0]+position[0])*-1)
     
     for i in range(1,n):
-        if(position[i] <= fallRange[-1]):
-            heappush(fallRange,position[i] + height[i])
+        if(position[i] <= -1*fallRange[0]):
+            heappush(fallRange,(position[i] + height[i])*-1)
         else:
             stop = True
             break
     if not (stop): out = 'LEFT'
     stop = False
     fallRange = []
-    heappush(fallRange,(position[-1]-height[-1])*-1)
+    heappush(fallRange,(position[-1]-height[-1]))
     for j in range(n-2,-1,-1):
-        if(position[j] >= -1*fallRange[-1]):
-            heappush(fallRange,(position[j]-height[j])*-1)
+        if(position[j] >= fallRange[0]):
+            heappush(fallRange,(position[j]-height[j]))
         else:
             stop = True
             break
