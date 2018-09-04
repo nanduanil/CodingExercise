@@ -1,0 +1,7 @@
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\bin\Debug\IsBST.exe.config
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\bin\Debug\IsBST.exe
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\bin\Debug\IsBST.pdb
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\obj\Debug\IsBST.csprojAssemblyReference.cache
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\obj\Debug\IsBST.csproj.CoreCompileInputs.cache
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\obj\Debug\IsBST.exe
+C:\Users\nanil\Desktop\study\Randon\IsBST\IsBST\obj\Debug\IsBST.pdb
